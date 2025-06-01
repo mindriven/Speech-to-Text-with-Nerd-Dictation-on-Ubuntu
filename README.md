@@ -6,7 +6,8 @@ This repository provides a setup description and a bash script for switching spe
 - Dynamic Language Switching: Automatically selects the dictation language to match the currently active keyboard layout.
 - MacOS-Inspired User Experience: Conveniently integrates dictation into your workflow with a shortcut, works in terminal and in UIs.
 - Lightweight and Customizable: Uses open-source tools like `dotool` and `vosk`. 
-
+## Demo of language/keyboard layout matching
+![demo](./demo.gif)
 ## Step-by-Step setup guide
 ### Step 0 - Prerequisites
 Ensure the following tools are installed on your system: git, curl, Python 3, Pulseaudio Utilities. Or just install them with   
