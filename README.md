@@ -30,7 +30,7 @@ git clone https://github.com/ideasman42/nerd-dictation.git
   
 ### Step 3: Download Language Models for each language
 Download and extract models for each language you plan to use.
-You can see the available models here: https://alphacephei.com/vosk/models. I only used smallest one for each language, no experience how big of a delay/quality imporovement do the bigger models bring.
+You can see the available models here: https://alphacephei.com/vosk/models. I only used smallest one for each language, so far no experience how big of a delay/quality imporovement do bigger models bring.
 
 Below are examples for English, German, and Polish (no reason other than this is what I use):
 ```bash
@@ -43,7 +43,7 @@ unzip vosk-model-small-pl-0.22.zip
 ```
 ### Step 4: Install `dotool`
 
-(`dotool`)[https://sr.ht/~geb/dotool/] will be used to "type" the text recognized from speech to wherever your cursor/focus is. Nerd dictation can work with other tools, and `dotool` is not a default one, but I insisted on something that can work with you UIs and terminals, and preferably does not require a deamon.
+[`dotool`](https://sr.ht/~geb/dotool/) will be used to "type" the text recognized from speech to wherever your cursor/focus is. Nerd dictation can work with other tools, and `dotool` is not a default one, but I insisted on something that can work with you UIs and terminals, and preferably does not require a deamon.
 Since there is no deb package to install, we're going to have to compile `dotool`, for which we will use docker (so that we do not to have to install all the golang dependencies).
 
 If you do not have a docker installed, install it first (https://docs.docker.com/engine/install/ubuntu/)
